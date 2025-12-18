@@ -1,27 +1,59 @@
-# NgTest1
+Testes Angular com Jasmine & Karma
+📌 Sobre
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
+Este repositório contém exemplos práticos de testes unitários em Angular utilizando Jasmine e Karma. O objetivo é demonstrar como testar corretamente services, requisições HTTP e regras de negócio, seguindo boas práticas recomendadas pelo Angular.
 
-## Development server
+O projeto foca em:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Escrita de testes unitários claros e confiáveis
 
-## Code scaffolding
+Testes de serviços HTTP com HttpClientTestingModule
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Validação de comportamentos assíncronos
 
-## Build
+Garantia de transformações de dados (ex: formatação, mapeamento e normalização)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Este repositório é voltado para estudo, referência e portfólio, especialmente para desenvolvedores que desejam aprimorar seus conhecimentos em testes no Angular.
 
-## Running unit tests
+🧪 Tecnologias e Ferramentas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Angular
 
-## Running end-to-end tests
+TypeScript
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Jasmine – Framework de testes
 
-## Further help
+Karma – Test runner
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+HttpClientTestingModule – Mock de requisições HTTP
+
+🏷️ Tópicos
+
+angular
+
+angular-testing
+
+jasmine
+
+karma
+
+testes-unitarios
+
+http-testing
+
+typescript
+
+frontend
+
+software-testing
+
+🚀 Como executar o projeto
+npm install
+ng test
+📚 Observações
+
+Testes escritos com foco em clareza e simplicidade
+
+Exemplos baseados em cenários reais
+
+Útil como material de consulta para padrões de testes em Angular
